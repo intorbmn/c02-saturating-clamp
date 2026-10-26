@@ -1,0 +1,12 @@
+# Git
+.git/
+
+# OpenLane generated runs
+openlane/runs/
+
+# Temporary and cache files
+__pycache__/
+*.pyc
+*.tmp
+*.bak
+.DS_Store
