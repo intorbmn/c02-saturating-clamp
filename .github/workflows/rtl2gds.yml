@@ -104,6 +104,8 @@ jobs:
             **/runs/**/*.log
             **/metrics.json
             **/*.gds
+            **/runs/**/*.rpt
+            **/runs/**/resolved.json
             flow_versions.txt
             metrics_chinh.txt
           if-no-files-found: warn
