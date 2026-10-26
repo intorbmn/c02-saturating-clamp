@@ -1,0 +1,3 @@
+so phep kiem: 36869, loi: 0
+ALL TESTS PASSED
+../tb/tb_sat_clamp_selfcheck.v:58: $finish called at 36869000 (1ps)
