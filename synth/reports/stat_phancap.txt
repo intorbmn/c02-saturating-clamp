@@ -1,0 +1,74 @@
+
+4. Printing statistics.
+
+=== clamp_cmp ===
+
+   Number of wires:                 74
+   Number of wire bits:             95
+   Number of public wires:           5
+   Number of public wire bits:      26
+   Number of ports:                  5
+   Number of port bits:             26
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 71
+     $_ANDNOT_                      35
+     $_ORNOT_                       14
+     $_OR_                           7
+     $_XNOR_                         5
+     $_XOR_                         10
+
+=== clamp_mux ===
+
+   Number of wires:                 14
+   Number of wire bits:             42
+   Number of public wires:           6
+   Number of public wire bits:      34
+   Number of ports:                  6
+   Number of port bits:             34
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 16
+     $_MUX_                         16
+
+=== sat_clamp ===
+
+   Number of wires:                  9
+   Number of wire bits:             58
+   Number of public wires:           9
+   Number of public wire bits:      58
+   Number of ports:                  5
+   Number of port bits:             40
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     $_OR_                           1
+     clamp_cmp                       1
+     clamp_mux                       1
+
+=== design hierarchy ===
+
+   sat_clamp                         1
+     clamp_cmp                       1
+     clamp_mux                       1
+
+   Number of wires:                 97
+   Number of wire bits:            195
+   Number of public wires:          20
+   Number of public wire bits:     118
+   Number of ports:                 16
+   Number of port bits:            100
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 88
+     $_ANDNOT_                      35
+     $_MUX_                         16
+     $_ORNOT_                       14
+     $_OR_                           8
+     $_XNOR_                         5
+     $_XOR_                         10
+

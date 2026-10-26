@@ -1,0 +1,26 @@
+
+4. Printing statistics.
+
+=== sat_clamp ===
+
+   Number of wires:                 54
+   Number of wire bits:            152
+   Number of public wires:          14
+   Number of public wire bits:     112
+   Number of ports:                  5
+   Number of port bits:             40
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 51
+     $_ANDNOT_                      15
+     $_AND_                          1
+     $_MUX_                          7
+     $_NAND_                         3
+     $_NOR_                          6
+     $_ORNOT_                        6
+     $_OR_                           5
+     $_XNOR_                         4
+     $_XOR_                          2
+     $scopeinfo                      2
+

@@ -1,0 +1,6 @@
+# Tong hop GIU PHAN CAP (khong flatten) de thay rieng cmp / mux
+read_verilog ../rtl/sat_clamp.v
+hierarchy -check -top sat_clamp
+synth -top sat_clamp
+tee -o reports/stat_phancap.txt stat
+tee -q -o reports/stat_phancap.json stat -json

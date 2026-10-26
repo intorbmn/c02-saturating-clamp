@@ -1,0 +1,78 @@
+{
+   "creator": "Yosys 0.52 (git sha1 fee39a3284c90249e1d9684cf6944ffbbcbb8f90)",
+   "invocation": "stat -json ",
+   "modules": {
+      "\\clamp_cmp": {
+         "num_wires":         74,
+         "num_wire_bits":     95,
+         "num_pub_wires":     5,
+         "num_pub_wire_bits": 26,
+         "num_ports":         5,
+         "num_port_bits":     26,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         71,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 35,
+            "$_ORNOT_": 14,
+            "$_OR_": 7,
+            "$_XNOR_": 5,
+            "$_XOR_": 10
+         }
+      },
+      "\\clamp_mux": {
+         "num_wires":         14,
+         "num_wire_bits":     42,
+         "num_pub_wires":     6,
+         "num_pub_wire_bits": 34,
+         "num_ports":         6,
+         "num_port_bits":     34,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         16,
+         "num_cells_by_type": {
+            "$_MUX_": 16
+         }
+      },
+      "\\sat_clamp": {
+         "num_wires":         9,
+         "num_wire_bits":     58,
+         "num_pub_wires":     9,
+         "num_pub_wire_bits": 58,
+         "num_ports":         5,
+         "num_port_bits":     40,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         3,
+         "num_cells_by_type": {
+            "$_OR_": 1,
+            "clamp_cmp": 1,
+            "clamp_mux": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         97,
+         "num_wire_bits":     195,
+         "num_pub_wires":     20,
+         "num_pub_wire_bits": 118,
+         "num_ports":         16,
+         "num_port_bits":     100,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         88,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 35,
+            "$_MUX_": 16,
+            "$_ORNOT_": 14,
+            "$_OR_": 8,
+            "$_XNOR_": 5,
+            "$_XOR_": 10
+         }
+      }
+}
+

@@ -1,0 +1,6 @@
+# Tong hop PHANG de lay tong so cell + netlist cho OpenLane
+read_verilog ../rtl/sat_clamp.v
+hierarchy -check -top sat_clamp
+synth -top sat_clamp -flatten
+tee -o reports/stat_phang.txt stat
+write_verilog -noattr netlist/sat_clamp_netlist.v
