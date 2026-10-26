@@ -1,0 +1,9 @@
+{
+  "DESIGN_NAME": "sat_clamp",
+  "VERILOG_FILES": "dir::../rtl/sat_clamp.v",
+  "CLOCK_PORT": null,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": [0, 0, 160, 100],
+  "PL_TARGET_DENSITY_PCT": 55,
+  "RUN_LINTER": true
+}
