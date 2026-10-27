@@ -1,12 +1,48 @@
-# Git
-.git/
-
-# OpenLane generated runs
+# ---- Kết quả flow (sinh lại được bằng CI / LibreLane) ----
+runs/
 openlane/runs/
+ci_ket_qua/
+ci_final/
+*.gds
+*.oas
+!**/final/**/.keep
 
-# Temporary and cache files
-__pycache__/
-*.pyc
+# ---- Mô phỏng (sinh lại bằng sim/run_sim.sh) ----
+*.vcd
+*.vvp
+*.out
+*.fst
+*.lxt
+a.out
+waveforms/*
+!waveforms/.gitkeep
+
+# ---- Log và tạm ----
+*.log
 *.tmp
 *.bak
+*~
+.nix-*
+result
+result-*
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+
+# ---- Hệ điều hành / editor ----
 .DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# ---- Báo cáo bản nháp (nộp riêng, không cần trong repo) ----
+~$*.docx
+*.docx
+*.pdf
+
+# GIỮ trong repo (đừng ignore): synth/reports/*, rtl/, tb/, sim/*.sh, sim/*.py,
+# openlane/config.json, .github/
