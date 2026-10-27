@@ -33,6 +33,11 @@ module tb_sat_clamp_selfcheck;
                     $display("LOI: s=0x%02h cfg=0x%02h  got y=0x%02h f=%b  exp y=0x%02h f=%b",
                              s, cfg, uo_out, uio_out[0], exp_y, exp_f);
             end
+            // bat bien: y nam trong [lo,hi] va co == (y != s)
+            if (!(uo_out >= lo && uo_out <= hi) || (uio_out[0] !== (uo_out != s))) begin
+                errors = errors + 1;
+                $display("LOI bat bien: s=0x%02h cfg=0x%02h y=0x%02h", s, cfg, uo_out);
+            end
         end
     endtask
 
